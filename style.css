@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --poppins: 'Poppins', sans-serif;
+}
+
+body {
+  background: url(./images/bg-intro-mobile.png) hsl(0, 100%, 74%);
+}
+
+button, input {
+  display: block;
+  width: 100%;
+}
+
+/* typography */
+
+main {
+  font-family: var(--poppins);
+}
+
+.learn {
+  color: white;
+}
+
+.try { 
+  color: white;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.try > span {
+  /* font-size: 1rem; */
+  font-weight: 700;
+}
+
+
+input {
+  font-weight: 700;
+}
+
+form > div {
+  text-align: right;
+}
+
+.error {
+  color: red;
+  font-size: .7rem;
+  font-style: italic;
+}
+
+form > button {
+  color: white;
+  font-weight: 700;
+  letter-spacing: .08rem;
+}
+
+.terms {
+  color: rgba(128, 128, 128, 0.534);
+  font-size: .8rem;
+}
+
+.terms > span {
+  color: hsla(0, 100%, 74%, 0.788);
+  font-weight: 700;
+}
+
+/* main */
+
+main {
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.free {
+  margin-top: 5rem;
+}
+
+.try {
+  background-color: hsl(248, 32%, 49%);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: .4rem;
+  box-shadow: rgba(129, 119, 119, 0.432) 0 .4rem;
+}
+
+.form-wrapper {
+  margin: 1.5rem 0;
+  padding: 1.1rem;
+
+  background: white;
+  border-radius: .4rem;
+
+  box-shadow: rgba(129, 119, 119, 0.432) 0 .4rem;
+}
+
+.form-wrapper > form > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: .9rem 1rem;
+  border-radius: .2rem;
+  border: solid 1px grey;
+}
+
+form > button {
+  background: hsl(154, 59%, 51%);
+  border: none;
+  border-radius: .4rem;
+
+  padding: 1rem;
+  box-shadow: hsl(154, 55%, 47%) 0 .2rem;
+}
+
+form > button:hover {
+  cursor: pointer;
+  background: hsla(154, 59%, 51%, 0.699);
+}
+
+.terms {
+  margin-top: 1rem;
+}
+
+@media (min-width: 900px) {
+  /* typography */
+  h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  /* layout */
+  main {
+    display: flex;
+    align-items: center;
+    padding: 4rem 8rem;
+    column-gap: 4rem;
+  }
+
+
+  .learn {
+    text-align: left;
+    flex: 1 1 0;
+  }
+
+  .free {
+    margin-top: 0;
+    flex: 1 1 0;
+  }
+
+  .try {
+    margin-top: auto;
+  }
+
+  .form-wrapper {
+    margin-bottom: auto;
+  }
+
+  input {
+    padding: .9rem 1.5rem;
+  }
+
+
+}
