@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel='stylesheet' href='style.css'>
   <title>Frontend Mentor | Intro component with sign up form</title>
 
@@ -32,18 +32,22 @@
           <div>
             <input type="text" id='first-name' placeholder="First Name">
             <span class='error first-name'></span>
+            <i class="fas fa-exclamation-circle i-fn"></i>
           </div>
           <div>
             <input type="text" id='last-name' placeholder="Last Name">
             <span class='error last-name'></span>
+            <i class="fas fa-exclamation-circle i-ln"></i>
           </div>
           <div>
             <input type="text" id='email' placeholder="Email Address">
             <span class='error email'></span>
+            <i class="fas fa-exclamation-circle i-email"></i>
           </div>
           <div>
             <input type="text" id='password' placeholder="Password">
             <span class='error password'></span>
+            <i class="fas fa-exclamation-circle i-pass"></i>
           </div>
           <button type="submit" class='submit'>CLAIM YOUR FREE TRIAL</button>
         </form>
