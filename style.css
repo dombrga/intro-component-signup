@@ -153,6 +153,16 @@ form > button:hover {
   margin-top: 1rem;
 }
 
+.attribution { font-size: .9rem; text-align: center; }
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 900px) {
   /* typography */
   h2 {
