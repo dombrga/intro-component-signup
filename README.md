@@ -49,7 +49,7 @@ Users should be able to:
 
 ### Continued development
 
-- Will more efficient Javascript.
+- Write better Javascript.
 
 ### Useful resources
 
