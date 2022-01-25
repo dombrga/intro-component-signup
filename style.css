@@ -10,6 +10,10 @@
   --poppins: 'Poppins', sans-serif;
 }
 
+html {
+  position: relative;
+}
+
 body {
   background: url(./images/bg-intro-mobile.png) hsl(0, 100%, 74%);
 }
@@ -150,7 +154,18 @@ form > button:hover {
   margin-top: 1rem;
 }
 
-.attribution { font-size: .9rem; text-align: center; }
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.attribution { 
+  font-size: .9rem; 
+  text-align: center; 
+}
 .attribution a { 
   color: hsl(228, 45%, 44%);
   text-decoration: none;
