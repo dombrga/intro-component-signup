@@ -16,6 +16,7 @@ html {
 
 body {
   background: url(./images/bg-intro-mobile.png) hsl(0, 100%, 74%);
+  /* position: relative; */
 }
 
 button, input {
@@ -175,7 +176,12 @@ footer {
   text-decoration: underline;
 }
 
+
+
 @media (min-width: 900px) {
+  html {
+    position: relative;
+  }
   /* typography */
   h2 {
     font-size: 3rem;
@@ -186,7 +192,7 @@ footer {
   main {
     display: flex;
     align-items: center;
-    padding: 4rem 8rem;
+    padding: 6rem 8rem;
     column-gap: 4rem;
   }
 
@@ -213,5 +219,8 @@ footer {
     padding: .9rem 1.5rem;
   }
 
+
+  /* footer */
+  
 
 }
